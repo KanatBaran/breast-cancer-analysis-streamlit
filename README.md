@@ -49,10 +49,6 @@ Early detection of breast cancer is critical for patient outcomes. This applicat
 └── data.csv # UCI Breast Cancer dataset (569×31)<br>
 
 
-> **Note:** If your main script is named differently, replace `app.py` with the correct filename in the commands below.
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
