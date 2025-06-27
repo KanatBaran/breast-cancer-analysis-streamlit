@@ -48,10 +48,4 @@ Early detection of breast cancer is critical for patient outcomes. This applicat
 ├── deepModelAnalizi.py # (if present) Deep Learning models module <br>
 └── data.csv # UCI Breast Cancer dataset (569×31)<br>
 
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.10  
-
+> **Note:** English translation assisted by DeepL.
