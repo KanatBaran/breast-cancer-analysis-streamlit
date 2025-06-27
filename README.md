@@ -40,15 +40,13 @@ Early detection of breast cancer is critical for patient outcomes. This applicat
 
 
 ## 📁 File Structure
-├── app.py # Main Streamlit launcher (imports modules below)
-├── baslangic.py # ‘About me’ & navigation tabs
-├── dinamikVeri.py # Dynamic/EDA module
-├── veriAnalizi.py # Static analysis & preprocessing module
-├── modelAnalizi.py # Traditional ML models module
-├── deepModelAnalizi.py # (if present) Deep Learning models module
-├── requirements.txt # Python dependencies
-└── data/
-└── data.csv # UCI Breast Cancer dataset (569×31)
+├── app.py # Main Streamlit launcher (imports modules below)<br>
+├── baslangic.py # ‘About me’ & navigation tabs<br>
+├── dinamikVeri.py # Dynamic/EDA module<br>
+├── veriAnalizi.py # Static analysis & preprocessing module<br>
+├── modelAnalizi.py # Traditional ML models module<br>
+├── deepModelAnalizi.py # (if present) Deep Learning models module <br>
+└── data.csv # UCI Breast Cancer dataset (569×31)<br>
 
 
 > **Note:** If your main script is named differently, replace `app.py` with the correct filename in the commands below.
