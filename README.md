@@ -2,7 +2,7 @@
 
 A Streamlit‐powered data science project that walks you through exploratory analysis, preprocessing, model training and evaluation—comparing traditional machine learning and deep learning approaches—for automatic breast cancer diagnosis using the UCI Breast Cancer Wisconsin (Diagnostic) Dataset.
 
----
+
 
 ## 🔎 Project Overview
 
@@ -15,7 +15,7 @@ Early detection of breast cancer is critical for patient outcomes. This applicat
 - **Evaluates** all models via 10-fold cross-validation and test‐set metrics (accuracy, precision, recall, F1-score, confusion matrices)  
 - **Provides** an interactive web UI for dynamic analysis and easy result comparison  
 
----
+
 
 ## ⚙️ Features
 
@@ -38,7 +38,26 @@ Early detection of breast cancer is critical for patient outcomes. This applicat
    - GridSearchCV hyperparameter tuning  
    - 10-fold cross-validation plots & metrics dashboards  
 
----
 
 ## 📁 File Structure
+├── app.py # Main Streamlit launcher (imports modules below)
+├── baslangic.py # ‘About me’ & navigation tabs
+├── dinamikVeri.py # Dynamic/EDA module
+├── veriAnalizi.py # Static analysis & preprocessing module
+├── modelAnalizi.py # Traditional ML models module
+├── deepModelAnalizi.py # (if present) Deep Learning models module
+├── requirements.txt # Python dependencies
+└── data/
+└── data.csv # UCI Breast Cancer dataset (569×31)
+
+
+> **Note:** If your main script is named differently, replace `app.py` with the correct filename in the commands below.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10  
 
